@@ -1404,6 +1404,18 @@ files = [
 ]
 
 [[package]]
+name = "pyconll"
+version = "3.2.0"
+description = "Read and manipulate CoNLL files"
+optional = false
+python-versions = "~=3.8"
+groups = ["main"]
+files = [
+    {file = "pyconll-3.2.0-py3-none-any.whl", hash = "sha256:6106a1136dfe6a524e41228b35b4f4aaae17bebe62d4aafc480feeb2b7ca769d"},
+    {file = "pyconll-3.2.0.tar.gz", hash = "sha256:402aca6b8e769caea8440aa33a04adf5e0fe060a0fa128178a91f5b986107b19"},
+]
+
+[[package]]
 name = "pytorch-lightning"
 version = "2.5.2"
 description = "PyTorch Lightning is the lightweight PyTorch wrapper for ML researchers. Scale your models. Write less boilerplate."
@@ -2161,5 +2173,5 @@ propcache = ">=0.2.1"
 
 [metadata]
 lock-version = "2.1"
-python-versions = ">=3.13"
-content-hash = "62a955f4a8bc82b24aaab095e23ee8d22cb91921b5b186ec2305e4024ae474d1"
+python-versions = ">=3.13,<4.0"
+content-hash = "6fcd80a684fcf91c8a7ee0a1f89b1ca2cdf57fb43dd34ed7a8cfb0e8883154c8"
